@@ -1,0 +1,11 @@
+name: PowerScrolls
+version: '1.0'
+main: me.tastycake.itemsCorePowerScrolls.Main
+api-version: '1.20'
+authors: [ TastyCake ]
+description: Core for all core plugins.
+depend:
+  - ItemsCore
+
+commands:
+  scrollchamber:

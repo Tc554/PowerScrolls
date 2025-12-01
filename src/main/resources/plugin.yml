@@ -3,7 +3,7 @@ version: '1.0'
 main: me.tastycake.itemsCorePowerScrolls.Main
 api-version: '1.20'
 authors: [ TastyCake ]
-description: Core for all core plugins.
+description: ItemsCore addon that adds the ability to create power scrolls and add them to items
 depend:
   - ItemsCore
 

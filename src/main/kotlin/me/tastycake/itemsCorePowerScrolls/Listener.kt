@@ -16,7 +16,7 @@ import org.bukkit.scheduler.BukkitRunnable
  * @date 11/28/2025
  */
 class Listener : ItemsCoreListener {
-    override fun itemEvent(player: Player, item: Item, action: String, event: Event): ItemEventResult {
+    override fun itemEvent(player: Player, item: Item, action: String, event: Event?): ItemEventResult {
         if (item.getAttributeValue("PowerScrolls", "Is a scroll") != null
             && item.getAttributeValue("PowerScrolls", "Is a scroll") as Boolean) {
             return ItemEventResult(true, null)

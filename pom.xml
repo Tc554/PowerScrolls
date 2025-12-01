@@ -18,6 +18,7 @@
     </properties>
 
     <build>
+        <finalName>PowerScrolls</finalName>
         <defaultGoal>clean package</defaultGoal>
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
         <plugins>

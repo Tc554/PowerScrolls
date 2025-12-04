@@ -16,6 +16,8 @@ class Main : JavaPlugin() {
     override fun onEnable() {
         if (server.pluginManager.getPlugin("ItemsCore") == null) {
             Bukkit.getConsoleSender().sendMessage("ItemsCore dependency is not found, disabling plugin!")
+            server.pluginManager.disablePlugin(this)
+            return
         }
 
         INSTANCE = this
